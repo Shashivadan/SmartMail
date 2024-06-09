@@ -4,7 +4,7 @@ import React, { PropsWithChildren } from "react";
 import { Toaster } from "sonner";
 import { SessionProvider } from "next-auth/react";
 
-export default function ({ children }: PropsWithChildren) {
+export default function providers({ children }: PropsWithChildren) {
   return (
     <>
       <SessionProvider>
